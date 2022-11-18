@@ -1,14 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
 
 body {
-    background-color: #B0E0E6;
-
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
 }
 
 .caixa {
     margin: 50px auto;
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 8px;
     width: 600px;
     height: 80px;
@@ -17,27 +16,36 @@ body {
 
 .to-do-field {
     border: none;
-    width: 450px;
+    width: 500px;
     height: 40px;
+    color: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
 }
 
 .to-do-send {
-    background-color:#B0E0E6;
+    background-color: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     border: none;
-    width: 100px;
-    height: 50px;
+    width: 50px;
+    height: 45px;
     border-radius: 8px ;
     margin-top: 15px;
-
-    
+    font-size: large;
+    cursor:pointer;
 }
 
 .lista {
     margin: 40px auto;
-    background-color: #fff;
+    background-color: #000;
     width: 600px;
     height: 300px;
     border-radius: 8px;
 
 }
 
+.bi-caret-right-fill {
+    color: #000;
+}
+
+.to-do-list {
+    list-style-type: circle;
+    color: #000;
+}
