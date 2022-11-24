@@ -5,11 +5,11 @@ const toDolist = document.querySelector('.to-do-list');
 function createList() {
     const li = document.createElement('li');
     const buttonClear = document.createElement('button')
-    buttonClear.setAttribute('class', 'button-clear');
-    buttonClear.innerText = 'Apagar';
+    buttonClear.setAttribute('class', 'button-clear bi bi-trash3-fill');
     li.innerText = toDoField.value;
     li.appendChild(buttonClear)
     toDolist.appendChild(li);
+    toDoField.value = ' '
     return li;
 
 }
